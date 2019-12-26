@@ -1,0 +1,14 @@
+<div class="tab-info">
+    <ul class="tab-info__list">
+       
+            <li [ngClass]="{'activated': activated === i, 'next-item': next === i}"     style="cursor: pointer" (click)='selectId(i)' *ngFor='let pokemon of pokemons; let i = index'class="border tab-info__list__item">
+            
+                    Poke {{i+1}}
+                
+            </li>
+       
+       
+    </ul>
+
+
+</div>

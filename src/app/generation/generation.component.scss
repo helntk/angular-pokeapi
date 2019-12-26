@@ -1,0 +1,28 @@
+.generation{
+    height: 13vh;
+    display: flex;
+    align-content: stretch;
+    width:100vw;
+    .activated{
+        background-color: #EEEEEE;
+        color: #611829
+    }
+    &__tab{
+       flex-grow: 1;
+       display: flex;
+       justify-content: center;
+       border-radius:.9rem;
+       align-items: center;
+       text-align: center;
+       font-weight: bold;
+       font-size:1.4rem;
+       letter-spacing: 1.4px;
+       color: #AAAAAA;
+       text-transform: uppercase;
+       opacity: 1;
+       height: 15vh;
+
+     
+    }
+}
+

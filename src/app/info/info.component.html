@@ -1,0 +1,27 @@
+<div  class="info" >
+    <div class="info__data">
+        <div class="info__data__img">
+            <img src={{PokemonData2.sprites.front_default}}>
+        </div>
+
+        <div class="info__data__info">
+            <ul>
+              <li >{{PokemonData.names[1].name}}</li>  
+              <li>{{PokemonData.name}}</li> 
+              
+            </ul>
+             <p>{{PokemonData.genera[2].genus}}</p>
+          <div class="info__data__type" >
+            <div class="info__data__type__box">
+                <div>{{PokemonData2.types[0].type.name}}</div>
+                <div class="item-2">{{PokemonData2.types[1].type.name}}</div>
+            </div>
+         
+          </div>
+        </div>
+    </div>
+
+    <div  class="info__text">
+        {{PokemonData.flavor_text_entries[2].flavor_text}}
+    </div>
+</div>

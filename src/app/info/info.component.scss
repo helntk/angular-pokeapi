@@ -1,0 +1,144 @@
+.info{
+    width: 100vw;
+    display: flex;
+    justify-items: center;
+    margin: .5rem 1rem 0 .5rem;
+
+    &__data{
+        display: flex;
+        flex-grow: 1;
+        margin-left:4rem;
+        justify-items: center;
+
+
+
+        &__img{
+                border-radius: 10rem;
+                margin-right:5rem;
+                display: flex;
+                height: 10rem;
+                width: 10rem;
+                border-radius: 10rem;
+                justify-content: center;
+                align-items: center;
+                background-color: #EEEEEE;
+                img{
+                    height: 100%;
+                }
+
+        }
+
+        &__info{
+            font-size: 2rem;
+         ul{
+            list-style-type: none;
+            color: #611829;
+            font-weight: 700;
+
+            li:nth-child(2){
+                margin: .3rem 0;
+                color:#924551;
+                font-weight: 500;
+
+            }
+         }
+         
+        
+        }
+    }
+
+    &__text{
+    background-color:#EEEEEE ;
+    width: 40%;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 10rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+
+    }
+
+    .info__data__type{
+
+        display: flex;
+        margin-top: .4rem;
+        &__box{
+            display: flex;
+            div{
+                padding: .2rem 1.5rem;
+                background-color:#EEEEEE ;
+                border-radius: 2rem;
+                
+               }
+        }
+       
+      
+    }
+    .item-2{
+        margin-left: .4rem;
+    }
+}
+
+
+@media screen and (max-width: 640px){
+    
+    .info{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    &__data{
+        display: flex;
+        flex-grow: 1;
+        margin-left:0;
+
+
+        &__img{
+                width: 6rem;
+                margin-right:4rem;
+                height: 6rem;
+                border-radius: 5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #EEEEEE;
+           
+        }
+
+        &__info{
+         ul{
+            list-style-type: none;
+            color: #611829;
+            font-weight: 700;
+
+            li:nth-child(2){
+                margin: .3rem 0;
+                color:#924551;
+                font-weight: 500;
+
+            }
+         }
+         
+        
+        }
+    }
+
+    &__text{
+    background-color:#EEEEEE ;
+    width: 25rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 0;
+    margin-top: 3rem;
+    }
+
+
+    .item-2{
+        margin-left: .4rem;
+    }
+  
+  }
+
+ 
+
+}

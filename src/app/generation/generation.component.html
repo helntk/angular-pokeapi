@@ -1,0 +1,17 @@
+<div class="generation">
+    <div style="cursor: pointer" [ngStyle]="{'margin': '.5rem 0 0 1rem'}" (click)='activar(g1)' #g1 [ngClass]="{'activated': activated==='1'}" class="generation__tab   generation__tab--1">
+            Geração 1
+
+    </div>
+    <div [ngClass]="{'activated': activated==='2'}"[ngStyle]="{'margin': '.5rem 1rem 0 0'}" #g2 style="cursor: pointer" (click)='activar(g2)' class="generation__tab  generation__tab--2">
+    
+        Geração 2
+ 
+  </div>
+
+</div>
+
+
+<app-tab-info></app-tab-info>
+<app-info></app-info>
+
